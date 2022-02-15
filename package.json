@@ -1,0 +1,22 @@
+{
+  "name": "meet-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Meet landing page coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elosscode/meet-landing-page.git"
+  },
+  "author": "eloss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elosscode/meet-landing-page/issues"
+  },
+  "homepage": "https://github.com/elosscode/meet-landing-page#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
