@@ -4,6 +4,18 @@
   margin-top: 80px;
   margin-bottom: 61px;
 
+  @media only screen and (max-width: 1373px) {
+    margin-bottom: 64px;
+  }
+
+  @media only screen and (max-width: 997px) {
+    margin-top: 48px;
+  }
+
+  @media only screen and (max-width: 406px) {
+    margin-bottom: 54px;
+  }
+
   img {
     width: 119px;
     height: 28px;

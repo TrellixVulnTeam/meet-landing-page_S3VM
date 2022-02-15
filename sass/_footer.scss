@@ -15,15 +15,43 @@
   background-color: hsla(192, 37%, 48%, 0.9);
   overflow: hidden;
 
+  @media only screen and (max-width: 1373px) {
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 845px) {
+    padding: 92px 18px 72px 18px;
+  }
+
+  @media only screen and (max-width: 685px) {
+    padding: 92px 18px 72px 18px;
+  }
+
   .heading-secondary {
     color: $primary-color-light-3;
     margin-right: 125px;
     margin-bottom: 0px;
+
+    @media only screen and (max-width: 1373px) {
+      margin-right: 0rem;
+      margin-bottom: 32px;
+    }
   }
 
   .paragraph {
     max-width: 350px;
     color: $primary-color-light-3;
     margin-right: 92px;
+
+    @media only screen and (max-width: 1373px) {
+      text-align: center;
+      max-width: 573px;
+      margin-right: 0rem;
+      margin-bottom: 40px;
+    }
+
+    @media only screen and (max-width: 997px) {
+      font-size: 18px;
+    }
   }
 }

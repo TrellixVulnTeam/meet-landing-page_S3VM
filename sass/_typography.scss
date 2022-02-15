@@ -15,6 +15,17 @@ body {
   color: $primary-color-dark-1;
   line-height: 1;
   margin-bottom: 34px;
+
+  @media only screen and (max-width: 997px) {
+    max-width: 339px;
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  @media only screen and (max-width: 406px) {
+    font-size: 40px;
+    max-width: 327px;
+  }
 }
 
 .heading-secondary {
@@ -24,6 +35,16 @@ body {
   color: $primary-color-dark-1;
   line-height: 1;
   margin-bottom: 32px;
+
+  @media only screen and (max-width: 1373px) {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  @media only screen and (max-width: 406px) {
+    font-size: 32px;
+    max-width: 327px;
+  }
 }
 
 .paragraph {
@@ -33,6 +54,10 @@ body {
   color: $primary-color-dark-2;
   font-weight: 500;
   line-height: 26px;
+
+  @media only screen and (max-width: 997px) {
+    font-size: 16px;
+  }
 }
 
 .btn {
@@ -58,6 +83,8 @@ body {
 
   &__hero-2 {
     background-color: $primary-color-2;
+    max-width: 139px;
+    padding: 16px 29px;
   }
   &__hero-2:hover {
     background-color: #b18bdd;
