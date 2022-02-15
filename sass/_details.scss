@@ -1,0 +1,39 @@
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 80px;
+  }
+
+  &__gallery-img {
+    max-width: 255px;
+    max-height: 242px;
+    border-radius: 4px;
+  }
+
+  &__infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 540px;
+    max-height: 240px;
+    margin-bottom: 72px;
+
+    span {
+      font-size: 16px;
+      font-family: $primary-font;
+      font-weight: 900;
+      letter-spacing: 4px;
+      color: $primary-color-1;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+  }
+}

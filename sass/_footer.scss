@@ -1,0 +1,29 @@
+.footer-section {
+  background-image: url("/assets/desktop/image-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.footer {
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 116px 165px 104px 165px;
+  background-color: hsla(192, 37%, 48%, 0.9);
+  overflow: hidden;
+
+  .heading-secondary {
+    color: $primary-color-light-3;
+    margin-right: 125px;
+    margin-bottom: 0px;
+  }
+
+  .paragraph {
+    max-width: 350px;
+    color: $primary-color-light-3;
+    margin-right: 92px;
+  }
+}

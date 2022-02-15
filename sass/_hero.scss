@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 110px;
+  gap: 88px;
+  text-align: center;
+  justify-content: center;
+
+  &__img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  &__img--2 {
+    margin-top: 61px;
+  }
+
+  &__infos {
+    max-width: 540px;
+    max-height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 61px;
+  }
+
+  &__btns {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+}
