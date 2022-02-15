@@ -43,6 +43,7 @@ body {
   border: none;
   padding: 16px 40px;
   border-radius: 29px;
+  cursor: pointer;
 
   &__hero-1 {
     background-color: $primary-color-1;
@@ -51,9 +52,15 @@ body {
       color: $primary-color-light-1;
     }
   }
+  &__hero-1:hover {
+    background-color: #71c0d4;
+  }
 
   &__hero-2 {
     background-color: $primary-color-2;
+  }
+  &__hero-2:hover {
+    background-color: #b18bdd;
   }
 
   &__footer {
@@ -67,4 +74,40 @@ body {
       color: $primary-color-light-2;
     }
   }
+  &__footer:hover {
+    background-color: #b18bdd;
+  }
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 64px;
+
+  &__line {
+    border-left: 1px solid #d8d8d8;
+    height: 84px;
+  }
+
+  &__num {
+    background-color: #fff;
+    color: $primary-color-dark-2;
+    font-size: 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 29px;
+    font-family: $primary-font;
+    font-weight: 900;
+    padding: 15px 19px;
+  }
+
+  &__num--2 {
+    padding: 15px 17.5px;
+  }
+}
+
+.step--2 {
+  margin-bottom: -28px;
 }

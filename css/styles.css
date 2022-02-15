@@ -37,13 +37,18 @@ body {
   font-weight: 900;
   border: none;
   padding: 16px 40px;
-  border-radius: 29px; }
+  border-radius: 29px;
+  cursor: pointer; }
   .btn__hero-1 {
     background-color: #4d96a9; }
     .btn__hero-1 span {
       color: #8fe3f9; }
+  .btn__hero-1:hover {
+    background-color: #71c0d4; }
   .btn__hero-2 {
     background-color: #855fb1; }
+  .btn__hero-2:hover {
+    background-color: #b18bdd; }
   .btn__footer {
     display: flex;
     gap: 4px;
@@ -52,6 +57,33 @@ body {
     max-height: 58px; }
     .btn__footer span {
       color: #d9b8ff; }
+  .btn__footer:hover {
+    background-color: #b18bdd; }
+
+.step {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 64px; }
+  .step__line {
+    border-left: 1px solid #d8d8d8;
+    height: 84px; }
+  .step__num {
+    background-color: #fff;
+    color: #87879d;
+    font-size: 16px;
+    border: 1px solid #d8d8d8;
+    border-radius: 29px;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    padding: 15px 19px; }
+  .step__num--2 {
+    padding: 15px 17.5px; }
+
+.step--2 {
+  margin-bottom: -28px; }
 
 .navbar {
   display: flex;
