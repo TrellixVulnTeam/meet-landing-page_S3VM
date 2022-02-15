@@ -139,6 +139,9 @@ body {
   @media only screen and (max-width: 997px) {
     .hero {
       margin-bottom: 80px; } }
+  @media only screen and (max-width: 635px) {
+    .hero {
+      gap: 16px; } }
   @media only screen and (max-width: 317px) {
     .hero {
       gap: 12px; } }
