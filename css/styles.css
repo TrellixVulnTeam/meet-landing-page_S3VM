@@ -21,7 +21,8 @@ body {
   @media only screen and (max-width: 406px) {
     .heading-primary {
       font-size: 40px;
-      max-width: 327px; } }
+      max-width: 327px;
+      margin-top: 48px; } }
 
 .heading-secondary {
   max-width: 445px;

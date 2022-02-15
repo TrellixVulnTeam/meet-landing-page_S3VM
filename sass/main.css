@@ -30,6 +30,7 @@ body {
   .heading-primary {
     font-size: 40px;
     max-width: 327px;
+    margin-top: 48px;
   }
 }
 
